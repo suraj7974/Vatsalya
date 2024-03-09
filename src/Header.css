@@ -1,10 +1,12 @@
 .header{
+    top: 0;
     height:60px;
     background-color: #131921;
-    position: sticky;
+    position:sticky;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 10000;
 }
 .header_lists{
     display: flex;

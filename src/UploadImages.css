@@ -1,4 +1,6 @@
-
+body{
+  margin-bottom:150px;
+}
 .upload_images {
   margin-top: 30px;
   margin-left: auto;

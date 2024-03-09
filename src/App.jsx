@@ -5,6 +5,7 @@ import Results from "./Results";
 import Header from "./Header";
 import UploadImages from "./UploadImages";
 import MoreResults from "./MoreResults";
+import FAQ from "./FAQ";
 
 function App() {
   return (
@@ -44,6 +45,15 @@ function App() {
               <>
                 <Header />
                 <MoreResults />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/FAQ"
+            element={
+              <>
+                <Header />
+                <FAQ />
               </>
             }
           ></Route>

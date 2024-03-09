@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  margin-bottom: 50px;
 }
 
 .Results {
@@ -8,6 +8,7 @@ body {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   border: 2px solid black;
 }
 .head {
