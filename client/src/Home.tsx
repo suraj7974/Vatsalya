@@ -1,6 +1,4 @@
-import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -17,7 +15,7 @@ function Home() {
           </span>
           <div className="button">
             <button
-              onClick={(e) => navigate("/UploadImages")}
+              onClick={() => navigate("/UploadImages")}
               className="get_started_button"
             >
               Get Started

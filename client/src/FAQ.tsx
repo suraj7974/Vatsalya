@@ -1,17 +1,17 @@
-import React from "react";
 import "./FAQ.css";
 import { useState } from "react";
 
 function FAQ() {
-  const [selected, setSelected] = useState(null);
-  const toggle = (i) => {
+  const [selected, setSelected] = useState<number | null>(null);
+  const toggle = (i: number) => {
     if (selected == i) {
       return setSelected(null);
     }
     setSelected(i);
   };
   return (
-    <><div className="title_faq" align="center">FAQs</div>
+    <>
+      <div className="title_faq text-center" >FAQs</div>
       <div className="wrapper">
         <div className="faq">
           {data.map((item, i) => (

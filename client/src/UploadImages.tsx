@@ -3,12 +3,12 @@ import "./UploadImages.css";
 import { useNavigate } from "react-router-dom";
 
 function UploadImages() {
-  const [imagePreview, setImagePreview] = useState(null);
-  const [isUploaded, setIsUploaded] = useState(false);
+  const [imagePreview, setImagePreview] = useState<string | ArrayBuffer | null>(null);
+  const [isUploaded, setIsUploaded] = useState<boolean>(false);
   const navigate = useNavigate();
 
-  const handleImageChange = (event) => {
-    const file = event.target.files[0];
+  const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
     const reader = new FileReader();
 
     reader.onload = () => {
@@ -47,7 +47,7 @@ function UploadImages() {
           {isUploaded ? (
             <>
               <img
-                src={imagePreview}
+                src={imagePreview as string}
                 alt="Preview"
                 style={{
                   maxWidth: "100%",
@@ -58,7 +58,7 @@ function UploadImages() {
               <p className="info">Image uploaded successfully!</p>
               <div className="align">
                 <button
-                  onClick={(e) => {
+                  onClick={() => {
                     navigate("/Results");
                   }}
                   className="get-result-button"
