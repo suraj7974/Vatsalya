@@ -9,6 +9,10 @@
 .header_lists{
     display: flex;
     margin-right: 20px;
+
+}
+.header_lists a{
+    text-decoration: none;
 }
 .header_lists_options{
     display: flex;

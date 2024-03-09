@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Results from "./Results";
 import Header from "./Header";
 import UploadImages from "./UploadImages";
+import MoreResults from "./MoreResults";
 
 function App() {
   return (
@@ -34,6 +35,15 @@ function App() {
               <>
                 <Header />
                 <Results />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/MoreResults"
+            element={
+              <>
+                <Header />
+                <MoreResults />
               </>
             }
           ></Route>
