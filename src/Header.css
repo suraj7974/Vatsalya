@@ -1,0 +1,19 @@
+.header{
+    height:60px;
+    background-color: #131921;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_lists{
+    display: flex;
+    margin-right: 20px;
+}
+.header_lists_options{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
