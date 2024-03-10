@@ -5,6 +5,7 @@ import Header from "./Header";
 import UploadImages from "./UploadImages";
 import MoreResults from "./MoreResults";
 import FAQ from "./FAQ";
+import Blog from "./Blog";
 
 function App() {
   return (
@@ -53,6 +54,15 @@ function App() {
               <>
                 <Header />
                 <FAQ />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/Blog"
+            element={
+              <>
+                <Header />
+                <Blog />
               </>
             }
           ></Route>

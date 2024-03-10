@@ -1,21 +1,24 @@
-body {
-  margin-bottom: 50px;
+.Results {
+  background-color: black;
+  height: 100vh;
 }
 
-.Results {
+.container {
   width: 1400px;
-  height: 650px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  border: 2px solid black;
+  height: 600px;
 }
 .head {
-  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 55px;
   margin-left: auto;
   margin-right: auto;
-  width: 0.1px;
+  margin-bottom: 5px;
+  width: 830px;
+  height: 81.36px;
+  font-family: Imbue;
+  letter-spacing: 0.185em;
 }
 
 .top {
@@ -23,13 +26,19 @@ body {
   min-height: 80%;
   justify-content: space-around;
 }
+.back_btn {
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 30px;
+}
 
 .left,
 .right {
-  width: 444px;
-  height: 300px;
-  margin-top: 60px;
+  width: 616px;
+  height: 378px;
   border: 2px solid #4d9dc5;
+  background-color: white;
 }
 
 .left img,
@@ -40,19 +49,22 @@ body {
 .see-more-button {
   padding: 5px;
   width: 110px;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-left: 2px;
-  cursor: pointer;
+  background-color: #fff;
 }
 .bottom {
   display: flex;
   justify-content: space-around;
 }
 .suggestion-box {
-  border: 1px solid black;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
   padding: 10px;
-  width: 300px;
+  width: 359px;
+  height: 65px;
   text-align: center;
 }
 .back-btn {

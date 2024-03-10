@@ -1,0 +1,45 @@
+.Blog {
+  background-color: #000;
+  height: 200vh;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: Imbue;
+  font-size: 128px;
+  font-weight: 500;
+  line-height: 154px;
+  letter-spacing: 0.185em;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 1152px;
+  height: 506px;
+  border: 1px solid #fff;
+  background-color: #141414;
+}
+.bottom {
+  width: 1152px;
+  height: 778px;
+  border: 1px solid #fff;
+}
+.top-left {
+  width: 353px;
+  height: 285px;
+  border: 1px solid #ffffff;
+}
+.top-right {
+  width: 695px;
+  height: 426px;
+  border: 1px solid #ffffff;
+}
