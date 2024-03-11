@@ -9,7 +9,7 @@ function Results() {
         onClick={() => {
           navigate("/UploadImages");
         }}
-        className="back_btn"
+        className="result_back_btn"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         width="24"
@@ -18,28 +18,28 @@ function Results() {
         <path fill="none" d="M0 0h24v24H0z" />
         <path d="M20 11H7.414l3.293-3.293a1 1 0 0 0-1.414-1.414l-5 5a1 1 0 0 0 0 1.414l5 5a1 1 0 0 0 1.414-1.414L7.414 13H20a1 1 0 0 0 0-2z" />
       </svg>
-      <div className="head">Process & Analysis</div>
-      <div className="container">
-        <div className="top">
-          <div className="left">
-            <img src="./images/anno.png" alt="" />
+      <div className="result_head">Process & Analysis</div>
+      <div className="Result_container">
+        <div className="result_top">
+          <div className="result_left">
+            <img src="./images/img11.jpg" alt="" />
             <button
               onClick={() => {
                 navigate("../MoreResults");
               }}
-              className="see-more-button"
+              className="result_see-more-button"
             >
               See More
             </button>
           </div>
-          <div className="right">
-            <img src="./images/graph.png" alt="" />
+          <div className="result_right">
+            <img src="./images/img12.jpg" alt="" />
           </div>
         </div>
-        <div className="bottom">
-          <span className="suggestion-box">Congo!! baby is about to born</span>
-          <span className="suggestion-box">Eat More Vegetables</span>
-          <span className="suggestion-box">sleep at least 8 hours</span>
+        <div className="result_bottom">
+          <span className="result_suggestion-box">Congo!! baby is about to born</span>
+          <span className="result_suggestion-box">Eat More Vegetables</span>
+          <span className="result_suggestion-box">sleep at least 8 hours</span>
         </div>
       </div>
     </div>

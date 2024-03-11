@@ -1,11 +1,28 @@
+.MoreResults{
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.seemore-table th {
+   color: white;
+}
+.seemore-table td {
+  text-align: center;
+  color: white;
+}
+
 .seemore-table {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  border: 2px solid #000;
+ 
+  border: 2px solid #ffffff;
 }
 .rows {
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
 }
 .columns {
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
+}
+.seemore-table.row_1.columns{
+  height:400px;
 }
