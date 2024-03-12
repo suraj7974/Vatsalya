@@ -47,3 +47,8 @@ Head circumference: 16.341136711451757
 Estimated Gestational Age: 19.8 weeks
 
 Estimated Fetal Weight: 328.62 grams
+
+
+## Future Goals
+
+For Achieving more accuracy we will use Ensemble model (in this we will use multiple model and combine their predictions to create a main model which will have maximum prediction value).
