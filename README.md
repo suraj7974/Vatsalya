@@ -28,7 +28,22 @@ You will see the predicted results of test image
 ### Results
 
 This is the ultrasonic image passed through model.
+
 ![ultrasonic image](github_images/031_HC.png)
 
 This is the annotated image converted from input image.
+
 ![annotated image](github_images/031_HC_Mask.png)
+
+
+## Final Results
+
+After annotated image is generated our model will calculate the Minor axis (OPD) and Major axis (BPD) of the ellipse formed on annotated image.
+
+Then the model will measure the Head Circumference, Gestational age and Fetal Weight.
+
+Head circumference: 16.341136711451757
+
+Estimated Gestational Age: 19.8 weeks
+
+Estimated Fetal Weight: 328.62 grams
