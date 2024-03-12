@@ -29,8 +29,8 @@ You will see the predicted results of test image
 
 ### Results
 
-Use the trained model to do segmentation on test images, the result is statisfactory.
+This is the ultrasonic image passed through model.
+![ultrasonic image](github_images/031_HC.png)
 
-![img/0test.png](img/0test.png)
-
-![img/0label.png](img/0label.png)
+This is the annotated image converted from input image.
+![annotated image](github_images/031_HC_Mask.png)
