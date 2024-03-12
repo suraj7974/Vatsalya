@@ -29,11 +29,11 @@ You will see the predicted results of test image
 
 This is the ultrasonic image passed through model.
 
-![ultrasonic image](github_images/031_HC.png)
+![ultrasonic image](github_images/068_HC.png)
 
 This is the annotated image converted from input image.
 
-![annotated image](github_images/031_HC_Mask.png)
+![annotated image](github_images/068_HC_Mask.png)
 
 
 ## Final Results
