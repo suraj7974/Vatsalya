@@ -5,8 +5,6 @@
 The original dataset is from [
 grand-challenge](https://zenodo.org/records/1327317), and I've downloaded it and done the pre-processing.
 
-You can find it in folder data/membrane.
-
 ### Model
 
 ![u-net-architecture.png](github_images/u-net-architecture.png)
