@@ -3,7 +3,7 @@
 ### Data
 
 The original dataset is from [
-grand-challenge](https://zenodo.org/records/1327317), and I've downloaded it and done the pre-processing.
+hc18.grand-challenge](https://hc18.grand-challenge.org/), and I've downloaded it and done the pre-processing.
 
 ### Model
 
