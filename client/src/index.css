@@ -15,4 +15,11 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+th{
+  @apply font-normal p-1.5 border border-slate-500
+}
+td{
+  @apply border p-1.5 text-[#3F3F4F] border-slate-500
+}
   

@@ -7,6 +7,8 @@ import MoreResults from "./MoreResults";
 import FAQ from "./FAQ";
 import Blog from "./Blog";
 import Dashboard from "./dashboard";
+import PatientRecord from "./patient-record";
+import PatientRegister from "./patient-register";
 
 function App() {
   return (
@@ -21,6 +23,14 @@ function App() {
           <Route
             path="/dashboard"
             element={<Dashboard />}
+          ></Route>
+          <Route
+            path="/patient-record"
+            element={<PatientRecord />}
+          ></Route>
+          <Route
+            path="/patient-register"
+            element={<PatientRegister />}
           ></Route>
           <Route
             path="/UploadImages"
