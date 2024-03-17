@@ -31,7 +31,7 @@ export const DailyGoals = () => {
 
     return (
         <div className='flex flex-col items-center gap-y-10'>
-            <h1 className='text-5xl'>Daily Goal's</h1>
+            <h1 className='text-4xl'>Daily Goal's</h1>
             <Carousel className="w-2/3 relative">
                 <CarouselContent className="p-4">
                     {goals.map((goal, i) => (
