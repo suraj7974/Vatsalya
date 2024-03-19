@@ -5,24 +5,24 @@ export const Report = () => {
   const reports = [
     {
       Image: "image_report",
-      report_no: "1",
+      report_no: "Report 1",
       weeks: "week 13 ",
       weight: "Fetal_weight: 236g",
-      note: "Exercise",
+      note: "Note: Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid raw or undercooked foods, high-mercury fish.",
     },
     {
       Image: "image_report",
       report_no: "Report 2",
       weeks: "week 21 ",
       weight: "Fetal_weight: 246g",
-      note: "Drink",
+      note: "Note: Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid raw or undercooked foods, high-mercury fish.",
     },
     {
       Image: "image_report",
-      report_no: "3",
+      report_no: "Report 3",
       weeks: "week 34 ",
       weight: "Fetal_weight: 256g",
-      note: "Eat",
+      note: "Note: Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid raw or undercooked foods, high-mercury fish.",
     },
   ];
   return (
