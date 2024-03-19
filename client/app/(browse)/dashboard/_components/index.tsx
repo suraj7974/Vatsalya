@@ -1,24 +1,23 @@
 import { Reports } from "./report";
-import React from "react";
 
 export const Report = () => {
   const reports = [
     {
-      Image: "image_report",
+      Image: "/report1.png",
       report_no: "Report 1",
       weeks: "week 13 ",
       weight: "Fetal_weight: 236g",
       note: "Note: Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid raw or undercooked foods, high-mercury fish.",
     },
     {
-      Image: "image_report",
+      Image: "/report2.png",
       report_no: "Report 2",
       weeks: "week 21 ",
       weight: "Fetal_weight: 246g",
       note: "Note: Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid raw or undercooked foods, high-mercury fish.",
     },
     {
-      Image: "image_report",
+      Image: "/report3.png",
       report_no: "Report 3",
       weeks: "week 34 ",
       weight: "Fetal_weight: 256g",
@@ -30,7 +29,7 @@ export const Report = () => {
       {reports.map((report, i) => (
         <div key={i} className="basis-1/3">
           <Reports
-            Image={report.Image}
+            image={report.Image}
             report_no={report.report_no}
             weeks={report.weeks}
             weight={report.weight}
