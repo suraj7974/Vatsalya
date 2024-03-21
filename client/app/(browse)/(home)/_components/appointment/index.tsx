@@ -33,15 +33,15 @@ export const Appointment = () => {
                 <Image className='w-fit max-h-[400px] rounded-lg object-contain' src="/appointed-doctor.png" alt='doctor' width={400} height={400} />
                 <aside className='w-1/2 flex flex-col justify-center items-center gap-y-2'>
                     <h3 className='text-2xl font-bold'>Dr. Sandeep Pandey</h3>
-                    <div className='flex text-yellow-500 gap-x-2'>
-                        <Star className='fill-yellow-500' />
-                        <Star className='fill-yellow-500' />
-                        <Star className='fill-yellow-500' />
-                        <Star className='fill-yellow-500' />
-                        <Star className='fill-yellow-500' />
-                    </div>
+                <div className='flex text-yellow-500 gap-x-2'>
+                    <Star className='fill-yellow-500' />
+                    <Star className='fill-yellow-500' />
+                    <Star className='fill-yellow-500' />
+                    <Star className='fill-yellow-500' />
+                    <Star className='fill-yellow-500' />
+                </div>
                     <p>Gynacologist</p>
-                    <p>Ram Krishnacar Hospital, Raipur</p>
+                    <p>Ram Krishnacare Hospital, Raipur</p>
                     <p>We aim to be the go-to destination for clients seeking reliable, efficient, and transformative tech services</p>
                     <input className='hidden' onChange={e => setFile(e.target.files![0])} type="file" ref={fileRef} />
                     <Button onClick={handleClick} className='mt-2'>
