@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ReportProps {
   image: string;
@@ -24,7 +25,9 @@ export const Reports = ({
         <h5 className='text-sm'>{weeks}</h5>
         <h5 className='text-sm'>{weight}</h5>
         <p className="text-slate-700 text-sm">{note}</p>
+        <Link href='download-report'>
         <Button className="mt-4">Downlad Report</Button>
+        </Link>
       </div>
     </div>
   );
