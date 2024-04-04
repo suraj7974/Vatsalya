@@ -4,7 +4,7 @@ export default authMiddleware({
     publicRoutes: [
         "/",
         "/about-us",
-        "/dashboard"
+        "/download-report"
     ]
 });
 
