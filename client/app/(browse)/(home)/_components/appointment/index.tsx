@@ -9,7 +9,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 export const Appointment = () => {
     const [file, setFile] = useState<File>();
-    const fileRef = useRef(null);
+    const fileRef = useRef<HTMLInputElement>(null);
 
     const handleClick = async () => {
         fileRef.current?.click();
@@ -18,6 +18,7 @@ export const Appointment = () => {
 
     useEffect(() => {
         const fetchReport = async () => {
+            if (!file) return;
             const form = new FormData();
             form.append('image', file);
             const res = await axios.post("http://127.0.0.1:5000/upload", form)
