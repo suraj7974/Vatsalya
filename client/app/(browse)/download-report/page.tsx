@@ -44,7 +44,7 @@ const DownloadReport = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-y-8">
         <h1 className="text-2xl font-bold">NOTE</h1>
-        <div className="border-2 border-solid bg-black text-white w-[1152px] h-[252px] flex justify-center items-center text-xl">Based on today's findings, your baby's development appears to be progressing well.</div>
+        <div className="border-2 border-solid bg-black text-white w-[1152px] h-[252px] flex justify-center items-center text-xl">Based on today&apos;s findings, your baby&apos;s development appears to be progressing well.</div>
       </div>
       <Button className="w-[300px] h-[56px] mx-auto bg-[#0368DF]">Download Report</Button>
       </>
